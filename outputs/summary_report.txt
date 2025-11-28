@@ -1,0 +1,36 @@
+TREASURY FX INSIGHTS — EXECUTIVE SUMMARY
+
+Latest observation date: 2025-09-30
+
+1) Latest Exchange Rates (foreign currency per $1):
+   - CAD: 1.3920
+   - EUR: 0.8520
+   - GBP: 0.7440
+
+2) Year-on-Year Change & Direction of Travel:
+   - CAD: 2.96%  →  USD stronger vs currency
+   - EUR: -4.59%  →  USD weaker vs currency
+   - GBP: -0.13%  →  USD weaker vs currency
+
+3) Volatility (30-day rolling annualised):
+   - CAD: current=5.30%, threshold(80th perc)=4.83%  →  ALERT: high volatility
+   - EUR: current=0.34%, threshold(80th perc)=7.05%  →  Normal range
+   - GBP: current=5.56%, threshold(80th perc)=8.62%  →  Normal range
+
+4) Currency Relationships (latest correlations of daily returns):
+currency   CAD   EUR   GBP
+currency                  
+CAD       1.00  0.70  0.79
+EUR       0.70  1.00  0.85
+GBP       0.79  0.85  1.00
+
+5) 30-day Forecast Snapshot (ARIMA baseline):
+   - CAD: forecast end value ≈ 1.3920
+   - EUR: forecast end value ≈ 0.8520
+   - GBP: forecast end value ≈ 0.7440
+
+Recommendations for future platform development:
+   • Schedule automated daily refresh of Treasury data.
+   • Trigger alerts for volatility spikes or large YoY moves.
+   • Extend forecasts with confidence bands and scenario testing.
+   • Integrate into a dashboard for Treasury / Risk teams.
